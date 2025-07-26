@@ -1,0 +1,38 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Globals */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--gray-e);
+}
+
+:root {
+    --gray-1: #111111;
+    --gray-2: #222222;
+    --gray-3: #333333;
+    --gray-4: #444444;
+    --gray-5: #555555;
+    --gray-6: #666666;
+    --gray-7: #777777;
+    --gray-8: #888888;
+    --gray-9: #999999;
+    --gray-a: #aaaaaa;
+    --gray-b: #bbbbbb;
+    --gray-c: #cccccc;
+    --gray-d: #dddddd;
+    --gray-e: #eeeeee;
+}

@@ -129,7 +129,7 @@ a {
 }
 
 .writing {
-    width: 750px;
+    max-width: 750px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -165,6 +165,21 @@ a {
     line-height: 1.5;
     font-size: 15px;
     color: var(--gray-9);
+    white-space: pre-wrap;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 500px) {
+    .writings-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        width: 100%;
+        gap: 10px;
+    }
 }
 
 

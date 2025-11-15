@@ -88,9 +88,9 @@ a {
     color: white;
 }
 
-/* Writings List */
+/* List */
 
-.writings-list {
+.list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,7 +99,7 @@ a {
     gap: 10px;
 }
 
-.writings-list-item {
+.list-item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -107,12 +107,12 @@ a {
     width: 100%;
 }
 
-.writings-list-title {
+.list-item-title {
     color: white; 
     font-weight: 700;
 }
 
-.writings-list-date {
+.list-item-secondary {
     color: var(--gray-7)
 }
 
@@ -168,10 +168,23 @@ a {
     white-space: pre-wrap;
 }
 
+/* About */
+
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 500px;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+
 /* Responsive */
 
 @media only screen and (max-width: 500px) {
-    .writings-list {
+    .list {
         display: flex;
         flex-direction: column;
         justify-content: center;

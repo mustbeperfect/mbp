@@ -104,6 +104,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     font-size: 15px;
+    width: 100%;
 }
 
 .list-item-title {
